@@ -9,19 +9,12 @@ Es un conjunto organizado de instrucciones escritas en código que le dicen a un
 ### Diferencia entre código fuente, código objeto y código ejecutable
 
 | Característica | Código Fuente | Código Objeto | Código Ejecutable |
-
 | :--- | :--- | :--- | :--- |
-
 | **Definición** | Instrucciones escritas por el programador en un lenguaje de alto o medio nivel. | Código intermedio en lenguaje máquina (o bytecode) generado tras compilar cada módulo. | Archivo final preparado para ser cargado en memoria y ejecutado directamente por el procesador. |
-
 | **Legibilidad** | Entendible por seres humanos. | No legible por humanos (código binario / máquina no enlazado). | No legible por humanos (instrucciones binarias completas). |
-
 | **Lenguaje / Formato** | Java, C++, Python, HTML, etc. | Archivos de código máquina binario. | Archivos binarios terminados. |
-
 | **Generación** | Se crea manualmente mediante un editor de texto o IDE. | Lo genera el compilador a partir del código fuente. | Lo genera el enlazador uniendo los archivos de código objeto y las librerías. |
-
 | **Ejecución directa** | No se puede ejecutar directamente por la CPU. | Tampoco se puede ejecutar directamente (le faltan dependencias y enlaces). | Sí, la CPU y el sistema operativo lo ejecutan directamente. |
-
 | **Dependencia del HW** | Independiente del hardware. | Dependiente de la arquitectura del procesador. | Dependiente de la arquitectura del procesador y del sistema operativo. |
 
 ### Etapas del desarrollo del software (SDLC)
